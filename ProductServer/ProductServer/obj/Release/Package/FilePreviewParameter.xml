@@ -1,0 +1,13 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<parameters>
+  <parameter name="IIS Web Application Name" description="" value="edjrssexemplo3" tags="IisApp">
+    <parameterEntry kind="ProviderPath" scope="IisApp" match="^C:\\Users\\Eduardodo\\Desktop\\Pos\ Inatel\\2017\\dm106\\Projetos\\Exemplo3\\Exemplo3\\obj\\Release\\Package\\PackageTmp$" />
+    <parameterEntry kind="ProviderPath" scope="setAcl" match="^C:\\Users\\Eduardodo\\Desktop\\Pos\ Inatel\\2017\\dm106\\Projetos\\Exemplo3\\Exemplo3\\obj\\Release\\Package\\PackageTmp$" />
+  </parameter>
+  <parameter name="DefaultConnection-Web.config Connection String" description="" value="Data Source=tcp:edjrssexemplo3service.database.windows.net,1433;Initial Catalog=edjrssexemplo3_db;User ID=edjrss;Password=&amp;edu@rdo07" tags="">
+    <parameterEntry kind="XmlFile" scope="C:\\Users\\Eduardodo\\Desktop\\Pos\ Inatel\\2017\\dm106\\Projetos\\Exemplo3\\Exemplo3\\obj\\Release\\Package\\PackageTmp\\Web\.config$" match="/configuration/connectionStrings/add[@name='DefaultConnection']/@connectionString" />
+  </parameter>
+  <parameter name="Exemplo3Context-Web.config Connection String" description="" value="Data Source=tcp:edjrssexemplo3service.database.windows.net,1433;Initial Catalog=edjrssexemplo3_db;User ID=edjrss;Password=&amp;edu@rdo07" tags="">
+    <parameterEntry kind="XmlFile" scope="C:\\Users\\Eduardodo\\Desktop\\Pos\ Inatel\\2017\\dm106\\Projetos\\Exemplo3\\Exemplo3\\obj\\Release\\Package\\PackageTmp\\Web\.config$" match="/configuration/connectionStrings/add[@name='Exemplo3Context']/@connectionString" />
+  </parameter>
+</parameters>
